@@ -1,0 +1,870 @@
+@charset "UTF-8";
+/*!
+ * Author: Grzesiek Jamróz
+ * Since 1999
+ * OwlsDepartment / www.owlsdepartment.com
+ */
+.navigation > div.n - menu.content li a, .view - work.project - wrapper.project.p - name, h2, h3 {
+    font - family: Novecentowide - Bold, sans - serif;
+    text - transform: uppercase;
+    margin: 0
+}
+hr: before, img {
+    display: block
+}
+a, del {
+    text - decoration: none
+}.image - container.row, .navigation, .navigation > div.n - menu {
+    -webkit - box - orient: horizontal
+}.arrows, .navigation li.active, .title {
+    pointer - events: none
+}
+body, hr: before, html {
+    overflow: hidden
+}.poster, .view - project.container section.next - project.n - p - background, .view - project.container section.p - title.p - t - background, .view - services.background, .view - us section.people div span {
+    background - repeat: no - repeat;
+    background - size: cover
+}
+@ - ms - viewport {
+    width: device - width
+}
+@ - o - viewport {
+    width: device - width
+}
+@viewport {
+    width: device - width
+}
+@font - face {
+    font - family: Novecentowide - Bold;
+    src: url(.. / .. / fonts / Novecentowide - Bold.eot);
+    src: url(.. / .. / fonts / Novecentowide - Bold.woff) format('woff'), url(.. / .. / fonts / Novecentowide - Bold.ttf) format('truetype');
+    font - weight: 400;
+    font - style: normal
+}
+@font - face {
+    font - family: Soleil;
+    src: url(.. / .. / fonts / TypeTogether - Soleil.eot);
+    src: url(.. / .. / fonts / TypeTogether - Soleil.woff) format('woff'), url(.. / .. / fonts / TypeTogether - Soleil.ttf) format('truetype');
+    font - weight: 400;
+    font - style: normal
+}
+@font - face {
+    font - family: Soleil - Bold;
+    src: url(.. / .. / fonts / TypeTogether - Soleil - Bold.eot);
+    src: url(.. / .. / fonts / TypeTogether - Soleil - Bold.woff) format('woff'), url(.. / .. / fonts / TypeTogether - Soleil - Bold.ttf) format('truetype');
+    font - weight: 400;
+    font - style: normal
+}
+@font - face {
+    font - family: Soleil - Light;
+    src: url(.. / .. / fonts / TypeTogether - SoleilLt.eot);
+    src: url(.. / .. / fonts / TypeTogether - SoleilLt.woff) format('woff'), url(.. / .. / fonts / TypeTogether - SoleilLt.ttf) format('truetype');
+    font - weight: 400;
+    font - style: normal
+} * {
+    outline: 0; - webkit - backface - visibility: hidden;backface - visibility: hidden;tap - highlight - color: transparent; - webkit - font - smoothing: antialiased; - webkit - text - size - adjust: 100 % ; - moz - osx - font - smoothing: grayscale
+} * , : after, : before {
+    box - sizing: inherit
+}
+body, html {
+    width: 100 vw;height: 100 vh;color: #1E1E1E}body{background-color:# 1E1 E1E;font - family: Soleil - Light,
+    sans - serif;font - size: 1 rem;line - height: 1.375 rem
+}
+html {
+    box - sizing: border - box;
+    font - size: 16 px
+}
+a {
+    -webkit - tap - highlight - color: transparent
+}.navigation > div.n - menu.content li a, h2 {
+    font - size: 3.75 rem;
+    line - height: 3.625 rem
+}
+@media(max - width: 767 px) {.navigation > div.n - menu.content li a, h2 {
+        font - size: 3 rem;
+        line - height: 2.875 rem
+    }
+}.view - work.project - wrapper.project.p - name, h3 {
+    font - size: 1.5 rem;
+    line - height: 1.375 rem
+}
+@media(max - width: 1024 px) {.view - work.project - wrapper.project.p - name, h3 {
+        font - size: 1.375 rem;
+        line - height: 1.25 rem
+    }
+}
+@media(max - width: 767 px) {.view - work.project - wrapper.project.p - name, h3 {
+        font - size: 1.25 rem;
+        line - height: 1.125 rem
+    }
+}.view - services.service - name, h4 {
+    font - family: Novecentowide - Bold, sans - serif;
+    font - size: 1.125 rem
+}.view - project.container section.next - project.n - p - button p, .view - project.container section.p - title p, h5 {
+    font - family: Soleil - Bold, sans - serif;
+    font - size: 1 rem;
+    margin: 0
+}
+hr {
+    border: 0;clear: both
+}
+hr: before {
+    content: "..........................";color: #fff;font - size: 18 px;letter - spacing: 1 px;height: 20 px
+}.burger: after, .burger: before, .close: after, .close: before {
+    left: 0;content: ''
+}
+ul {
+    font - size: 0;
+    list - style: none;
+    padding - left: 0
+}.view - project.container section.p - description.p - d - content li, strong {
+    font - family: Soleil - Bold, sans - serif;
+    font - weight: 400;
+    font - style: normal
+}
+svg {
+    -webkit - transform: translate3d(0);
+    transform: translate3d(0)
+}.c - black {
+    color: #1E1E1E!important}.c-blue{color:# 003E A1!important
+}.c - white {
+    color: #fff!important
+}.container {
+    width: 100 % ;height: 100 %
+}
+@media(min - width: 1025 px) {.desktop - hidden {
+        display: none!important
+    }
+}.flex - display {
+    display: -webkit - box!important;display: -webkit - flex!important;display: -ms - flexbox!important;display: flex!important
+}
+@media(max - width: 767 px) {.phone - hidden {
+        display: none!important
+    }
+}
+@media(min - width: 768 px) {.not - phone - hidden {
+        display: none!important
+    }
+}.overline, del {
+    padding: 0 5 px;position: relative;z - index: 2
+}.arrows, .new - subpage, .poster, .video {
+    position: absolute
+}.overline: after, .overline: before, del: after, del: before {
+    width: 0;height: 30 % ;position: absolute;left: -5 px;top: 44 % ;content: ''; - webkit - transition: all .35 s cubic - bezier(.19, 1, .22, 1);transition: all .35 s cubic - bezier(.19, 1, .22, 1)
+}.overline: before, del: before {
+    background - color: #343434;z-index:-1}.overline:after,del:after{background-color:# 003E A1;
+    z - index: 3
+}.overline.no - hover: after, .overline: hover: not(.no - hover): before, del.no - hover: after, del: hover: not(.no - hover): before {
+    width: calc(100 % +10 px)
+}
+@media(max - width: 1024 px) {.mobile - hidden {
+        display: none!important
+    }.overline: after, .overline: before, del: after, del: before {
+        height: 25 % ;top: 46 %
+    }
+}.new - subpage, .poster, .video {
+    height: 100 % ;top: 0
+}.new - subpage {
+    width: 100 % ;left: 100 % ;right: 0;bottom: 0;z - index: 10
+}.video, del.with - transition: after, del.with - transition: before {
+    left: 0
+}.poster {
+    width: 100 % ;left: 0;right: 0;bottom: 0;background - position: 50 % 50 %
+}.view {
+    background - color: #F2F1F1
+}.video {
+    width: 100 % ;right: 0;bottom: 0
+}.video video {
+    width: 100 % ;height: 100 % ; - o - object - fit: cover;object - fit: cover; - o - object - position: 50 % 50 % ;object - position: 50 % 50 %
+}
+del {
+    display: inline - block
+}.navigation > div.n - menu.footer li a: hover, .view - talk a: hover {
+    text - decoration: underline
+}
+del.with - transition: after {
+    -webkit - transition: all 1.15 s cubic - bezier(.86, 0, .07, 1);
+    transition: all 1.15 s cubic - bezier(.86, 0, .07, 1);
+    width: calc(100 % )
+}
+del: after {
+    width: 0
+}.arrows {
+    right: 20 % ;top: calc(50 % -8 px)
+}.arrows.white svg path {
+    fill: #fff!important
+}.arrows svg {
+    width: 16 px;height: 28 px;position: relative
+}.arrows svg: nth - child(1) {
+    opacity: .5
+}.arrows svg: nth - child(2) {
+    left: -4 px;opacity: .75
+}.arrows svg path {
+    -webkit - transition: fill 1.15 s cubic - bezier(.86, 0, .07, 1);
+    transition: fill 1.15 s cubic - bezier(.86, 0, .07, 1)
+}.big - circle {
+    width: 80 % ;max - width: 620 px;height: 80 % ;max - height: 620 px;position: absolute;left: 0;right: 0;top: 0;bottom: 0;margin: auto
+}.big - circle.with - transition svg circle.progress {
+    -webkit - transition: all 1.15 s cubic - bezier(.86, 0, .07, 1);
+    transition: all 1.15 s cubic - bezier(.86, 0, .07, 1)
+}.big - circle svg {
+    width: 100 % ;height: 100 %
+}.big - circle svg circle, .big - circle svg circle.progress {
+    stroke: #C7C7C7;stroke - dashoffset: 0;stroke - width: 24 px
+}
+@media(max - width: 480 px) {.big - circle {
+        width: 75 % ;height: 75 %
+    }
+}.burger {
+    width: 32 px;height: 30 px;position: fixed;right: 30 px;top: 25 px;cursor: pointer;z - index: 1003
+}.burger span, .burger: after, .burger: before {
+    width: 100 % ;height: 4 px;display: block;position: absolute;background - color: #1E1E1E;border-radius:2px;-webkit-transition:top .35s cubic-bezier(.23,1,.32,1),-webkit-transform .35s cubic-bezier(.23,1,.32,1),opacity .35s cubic-bezier(.23,1,.32,1),background-color 1.15s cubic-bezier(.86,0,.07,1);transition:top .35s cubic-bezier(.23,1,.32,1),transform .35s cubic-bezier(.23,1,.32,1),opacity .35s cubic-bezier(.23,1,.32,1),background-color 1.15s cubic-bezier(.86,0,.07,1)}.burger span{top:15px}.burger:after{top:26px}.burger:before{top:4px}.burger.active span{opacity:0}.burger.active:after,.burger.active:before{top:40%}.burger.active:after{-webkit-transform:rotate(-45deg);-ms-transform:rotate(-45deg);transform:rotate(-45deg)}.burger.active:before{-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg)}.burger:hover:not(.active):after{top:22px}.burger:hover:not(.active):before{top:8px}.burger.white span,.burger.white:after,.burger.white:before{background-color:# fff
+}
+@media(max - width: 768 px) {.burger {
+        width: 30 px;height: 28 px;right: 15 px
+    }.burger span, .burger: after, .burger: before {
+        height: 3 px
+    }.burger: after {
+        top: 23 px
+    }.burger: before {
+        top: 7 px
+    }.burger.active: after, .burger.active: before {
+        top: 50 %
+    }
+}
+@media(max - width: 480 px) {.burger {
+        width: 26 px;height: 24 px
+    }.burger span, .burger: after, .burger: before {
+        height: 2 px
+    }.burger.active: after, .burger.active: before {
+        top: 60 %
+    }
+}.close {
+    width: 32 px;height: 32 px;position: absolute;right: 90 px;top: 28 px; - webkit - transition: all .35 s cubic - bezier(.23, 1, .32, 1);transition: all .35 s cubic - bezier(.23, 1, .32, 1);z - index: 2000
+}.close: after, .close: before {
+    width: 100 % ;height: 4 px;display: block;position: absolute;top: 40 % ;background - color: #1E1E1E;border-radius:2px;-webkit-transform:rotate(-45deg);-ms-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transition:top .35s cubic-bezier(.23,1,.32,1),-webkit-transform .35s cubic-bezier(.23,1,.32,1),background-color 1.15s cubic-bezier(.86,0,.07,1);transition:top .35s cubic-bezier(.23,1,.32,1),transform .35s cubic-bezier(.23,1,.32,1),background-color 1.15s cubic-bezier(.86,0,.07,1)}.close:before{-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg)}.close:hover{-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg)}.is-mobile .close:after,.is-mobile .close:before{-webkit-transition:none;transition:none}.is-mobile .close:hover{-webkit-transform:none;-ms-transform:none;transform:none}.image-container{height:100%;padding-top:110px;padding-bottom:30px;font-size:0;display:inline-block}.image-container .row{height:50%;padding-bottom:15px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-flex-wrap:nowrap;-ms-flex-wrap:nowrap;flex-wrap:nowrap;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between}.image-container .row.align-right{-webkit-box-pack:end;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end}.image-container .row:last-child{padding-top:15px;padding-bottom:0}.image-container .row div{height:100%;margin-right:30px;display:inline-block;font-size:1rem}.image-container .row div:last-child{margin-right:0}.image-container .row div.square{height:100%;position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:end;-webkit-align-items:flex-end;-ms-flex-align:end;align-items:flex-end}.image-container .row div.align-right{-webkit-align-self:flex-end;-ms-flex-item-align:end;align-self:flex-end}@media (max-width:1024px){.image-container .row div{font-size:.9375rem;line-height:1.25rem}}.image-container .all-height{height:100%}.image-container img{width:auto;height:100%}@media (max-width:767px){.image-container .row div{font-size:.875rem;line-height:1.125rem;margin:0 auto}.image-container{height:auto;padding:0}.image-container .row{width:100vw;padding:0;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}.image-container .row:last-child{padding:0}.image-container .row div.is-text{padding:45px 15px}.image-container .row div:last-child{margin-right:auto}.image-container img{width:100%;max-width:100%;height:auto;-o-object-fit:cover;object-fit:cover}}h1{margin:0;padding:0;position:fixed;left:30px;top:30px;z-index:1001}h1.big .logo path:nth-child(2),h1:hover .logo path:nth-child(2){opacity:1;-webkit-transition:opacity .5s cubic-bezier(.19,1,.22,1)1.1s;transition:opacity .5s cubic-bezier(.19,1,.22,1)1.1s}h1.big .logo path:nth-child(3),h1:hover .logo path:nth-child(3){opacity:1;-webkit-transition:opacity .5s cubic-bezier(.19,1,.22,1)1.15s;transition:opacity .5s cubic-bezier(.19,1,.22,1)1.15s}h1.big .logo path:nth-child(4),h1:hover .logo path:nth-child(4){opacity:1;-webkit-transition:opacity .5s cubic-bezier(.19,1,.22,1)1.2s;transition:opacity .5s cubic-bezier(.19,1,.22,1)1.2s}h1.big .logo path:nth-child(5),h1:hover .logo path:nth-child(5){opacity:1;-webkit-transition:opacity .5s cubic-bezier(.19,1,.22,1)1.25s;transition:opacity .5s cubic-bezier(.19,1,.22,1)1.25s}h1.big .logo path:nth-child(6),h1:hover .logo path:nth-child(6){opacity:1;-webkit-transition:opacity .5s cubic-bezier(.19,1,.22,1)1.3s;transition:opacity .5s cubic-bezier(.19,1,.22,1)1.3s}h1.big .logo path:nth-child(7),h1:hover .logo path:nth-child(7){opacity:1;-webkit-transition:opacity .5s cubic-bezier(.19,1,.22,1)1.35s;transition:opacity .5s cubic-bezier(.19,1,.22,1)1.35s}h1.big .logo path:nth-child(8),h1:hover .logo path:nth-child(8){opacity:1;-webkit-transition:opacity .5s cubic-bezier(.19,1,.22,1)1.4s;transition:opacity .5s cubic-bezier(.19,1,.22,1)1.4s}h1.big .logo path:nth-child(9),h1:hover .logo path:nth-child(9){opacity:1;-webkit-transition:opacity .5s cubic-bezier(.19,1,.22,1)1.45s;transition:opacity .5s cubic-bezier(.19,1,.22,1)1.45s}h1.big .logo path:nth-child(10),h1:hover .logo path:nth-child(10){opacity:1;-webkit-transition:opacity .5s cubic-bezier(.19,1,.22,1)1.5s;transition:opacity .5s cubic-bezier(.19,1,.22,1)1.5s}h1.big .logo path:nth-child(11),h1:hover .logo path:nth-child(11){opacity:1;-webkit-transition:opacity .5s cubic-bezier(.19,1,.22,1)1.55s;transition:opacity .5s cubic-bezier(.19,1,.22,1)1.55s}h1.big .logo path:nth-child(12),h1:hover .logo path:nth-child(12){opacity:1;-webkit-transition:opacity .5s cubic-bezier(.19,1,.22,1)1.6s;transition:opacity .5s cubic-bezier(.19,1,.22,1)1.6s}h1.big .logo path:nth-child(13),h1:hover .logo path:nth-child(13){opacity:1;-webkit-transition:opacity .5s cubic-bezier(.19,1,.22,1)1.65s;transition:opacity .5s cubic-bezier(.19,1,.22,1)1.65s}h1.big .logo path,h1:hover .logo path{fill:# 1E1 E1E!important
+}
+h1.big.logo - circle - container, h1: hover.logo - circle - container {
+    -webkit - transform: scale(.75); - ms - transform: scale(.75);
+    transform: scale(.75)
+}
+h1.big.logo - circle circle, h1: hover.logo - circle circle {
+    stroke - dashoffset: 300 % ; - webkit - transition: stroke - dashoffset 1.15 s cubic - bezier(.86, 0, .07, 1) 0 s;
+    transition: stroke - dashoffset 1.15 s cubic - bezier(.86, 0, .07, 1) 0 s
+}
+h1.white.logo path {
+    fill: #fff!important
+}
+h1.white.logo - circle circle {
+    stroke: #fff
+}
+h1.logo {
+    width: 259 px;height: 21 px;position: absolute;left: 0;top: 0
+}
+h1.logo path: nth - child(1) {
+    -webkit - transition: fill 1.15 s cubic - bezier(.86, 0, .07, 1);
+    transition: fill 1.15 s cubic - bezier(.86, 0, .07, 1)
+}
+h1.logo path: nth - child(2) {
+    opacity: 0; - webkit - transition: fill 1.15 s cubic - bezier(.86, 0, .07, 1),
+    -webkit - transform .5 s cubic - bezier(.19, 1, .22, 1),
+    opacity .5 s cubic - bezier(.19, 1, .22, 1) .55 s;transition: fill 1.15 s cubic - bezier(.86, 0, .07, 1),
+    transform .5 s cubic - bezier(.19, 1, .22, 1),
+    opacity .5 s cubic - bezier(.19, 1, .22, 1) .55 s
+}
+h1.logo path: nth - child(3) {
+    opacity: 0; - webkit - transition: fill 1.15 s cubic - bezier(.86, 0, .07, 1),
+    -webkit - transform .5 s cubic - bezier(.19, 1, .22, 1),
+    opacity .5 s cubic - bezier(.19, 1, .22, 1) .5 s;transition: fill 1.15 s cubic - bezier(.86, 0, .07, 1),
+    transform .5 s cubic - bezier(.19, 1, .22, 1),
+    opacity .5 s cubic - bezier(.19, 1, .22, 1) .5 s
+}
+h1.logo path: nth - child(4) {
+    opacity: 0; - webkit - transition: fill 1.15 s cubic - bezier(.86, 0, .07, 1),
+    -webkit - transform .5 s cubic - bezier(.19, 1, .22, 1),
+    opacity .5 s cubic - bezier(.19, 1, .22, 1) .45 s;transition: fill 1.15 s cubic - bezier(.86, 0, .07, 1),
+    transform .5 s cubic - bezier(.19, 1, .22, 1),
+    opacity .5 s cubic - bezier(.19, 1, .22, 1) .45 s
+}
+h1.logo path: nth - child(5) {
+    opacity: 0; - webkit - transition: fill 1.15 s cubic - bezier(.86, 0, .07, 1),
+    -webkit - transform .5 s cubic - bezier(.19, 1, .22, 1),
+    opacity .5 s cubic - bezier(.19, 1, .22, 1) .4 s;transition: fill 1.15 s cubic - bezier(.86, 0, .07, 1),
+    transform .5 s cubic - bezier(.19, 1, .22, 1),
+    opacity .5 s cubic - bezier(.19, 1, .22, 1) .4 s
+}
+h1.logo path: nth - child(6) {
+    opacity: 0; - webkit - transition: fill 1.15 s cubic - bezier(.86, 0, .07, 1),
+    -webkit - transform .5 s cubic - bezier(.19, 1, .22, 1),
+    opacity .5 s cubic - bezier(.19, 1, .22, 1) .35 s;transition: fill 1.15 s cubic - bezier(.86, 0, .07, 1),
+    transform .5 s cubic - bezier(.19, 1, .22, 1),
+    opacity .5 s cubic - bezier(.19, 1, .22, 1) .35 s
+}
+h1.logo path: nth - child(7) {
+    opacity: 0; - webkit - transition: fill 1.15 s cubic - bezier(.86, 0, .07, 1),
+    -webkit - transform .5 s cubic - bezier(.19, 1, .22, 1),
+    opacity .5 s cubic - bezier(.19, 1, .22, 1) .3 s;transition: fill 1.15 s cubic - bezier(.86, 0, .07, 1),
+    transform .5 s cubic - bezier(.19, 1, .22, 1),
+    opacity .5 s cubic - bezier(.19, 1, .22, 1) .3 s
+}
+h1.logo path: nth - child(8) {
+    opacity: 0; - webkit - transition: fill 1.15 s cubic - bezier(.86, 0, .07, 1),
+    -webkit - transform .5 s cubic - bezier(.19, 1, .22, 1),
+    opacity .5 s cubic - bezier(.19, 1, .22, 1) .25 s;transition: fill 1.15 s cubic - bezier(.86, 0, .07, 1),
+    transform .5 s cubic - bezier(.19, 1, .22, 1),
+    opacity .5 s cubic - bezier(.19, 1, .22, 1) .25 s
+}
+h1.logo path: nth - child(9) {
+    opacity: 0; - webkit - transition: fill 1.15 s cubic - bezier(.86, 0, .07, 1),
+    -webkit - transform .5 s cubic - bezier(.19, 1, .22, 1),
+    opacity .5 s cubic - bezier(.19, 1, .22, 1) .2 s;transition: fill 1.15 s cubic - bezier(.86, 0, .07, 1),
+    transform .5 s cubic - bezier(.19, 1, .22, 1),
+    opacity .5 s cubic - bezier(.19, 1, .22, 1) .2 s
+}
+h1.logo path: nth - child(10) {
+    opacity: 0; - webkit - transition: fill 1.15 s cubic - bezier(.86, 0, .07, 1),
+    -webkit - transform .5 s cubic - bezier(.19, 1, .22, 1),
+    opacity .5 s cubic - bezier(.19, 1, .22, 1) .15 s;transition: fill 1.15 s cubic - bezier(.86, 0, .07, 1),
+    transform .5 s cubic - bezier(.19, 1, .22, 1),
+    opacity .5 s cubic - bezier(.19, 1, .22, 1) .15 s
+}
+h1.logo path: nth - child(11) {
+    opacity: 0; - webkit - transition: fill 1.15 s cubic - bezier(.86, 0, .07, 1),
+    -webkit - transform .5 s cubic - bezier(.19, 1, .22, 1),
+    opacity .5 s cubic - bezier(.19, 1, .22, 1) .1 s;transition: fill 1.15 s cubic - bezier(.86, 0, .07, 1),
+    transform .5 s cubic - bezier(.19, 1, .22, 1),
+    opacity .5 s cubic - bezier(.19, 1, .22, 1) .1 s
+}
+h1.logo path: nth - child(12) {
+    opacity: 0; - webkit - transition: fill 1.15 s cubic - bezier(.86, 0, .07, 1),
+    -webkit - transform .5 s cubic - bezier(.19, 1, .22, 1),
+    opacity .5 s cubic - bezier(.19, 1, .22, 1) .05 s;transition: fill 1.15 s cubic - bezier(.86, 0, .07, 1),
+    transform .5 s cubic - bezier(.19, 1, .22, 1),
+    opacity .5 s cubic - bezier(.19, 1, .22, 1) .05 s
+}
+h1.logo path: nth - child(13) {
+    opacity: 0; - webkit - transition: fill 1.15 s cubic - bezier(.86, 0, .07, 1),
+    -webkit - transform .5 s cubic - bezier(.19, 1, .22, 1),
+    opacity .5 s cubic - bezier(.19, 1, .22, 1) 0 s;transition: fill 1.15 s cubic - bezier(.86, 0, .07, 1),
+    transform .5 s cubic - bezier(.19, 1, .22, 1),
+    opacity .5 s cubic - bezier(.19, 1, .22, 1) 0 s
+}
+h1.logo path {
+    fill: #1E1E1E!important}h1 .logo-circle-container{position:absolute;left:-13px;top:-12px;-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);-webkit-transition:all 1.15s cubic-bezier(.86,0,.07,1);transition:all 1.15s cubic-bezier(.86,0,.07,1);-webkit-transition-delay:.25s;transition-delay:.25s}h1 .logo-circle{width:46px;height:46px}h1 .logo-circle circle{stroke:# 1E1 E1E;stroke - width: 4 px;stroke - dashoffset: 1 % ; - webkit - transition: stroke 1.15 s cubic - bezier(.86, 0, .07, 1),
+    stroke - dashoffset 1.15 s cubic - bezier(.86, 0, .07, 1) .5 s;transition: stroke 1.15 s cubic - bezier(.86, 0, .07, 1),
+    stroke - dashoffset 1.15 s cubic - bezier(.86, 0, .07, 1) .5 s
+}
+@media(max - width: 768 px) {
+    h1.logo path: nth - child(2), h1.big.logo path: nth - child(2), h1: hover.logo path: nth - child(2) {
+        opacity: 0; - webkit - transition: opacity .5 s cubic - bezier(.19, 1, .22, 1) .1 s;transition: opacity .5 s cubic - bezier(.19, 1, .22, 1) .1 s
+    }
+    h1.logo path: nth - child(3), h1.big.logo path: nth - child(3), h1: hover.logo path: nth - child(3) {
+        opacity: 0; - webkit - transition: opacity .5 s cubic - bezier(.19, 1, .22, 1) .15 s;transition: opacity .5 s cubic - bezier(.19, 1, .22, 1) .15 s
+    }
+    h1.logo path: nth - child(4), h1.big.logo path: nth - child(4), h1: hover.logo path: nth - child(4) {
+        opacity: 0; - webkit - transition: opacity .5 s cubic - bezier(.19, 1, .22, 1) .2 s;transition: opacity .5 s cubic - bezier(.19, 1, .22, 1) .2 s
+    }
+    h1.logo path: nth - child(5), h1.big.logo path: nth - child(5), h1: hover.logo path: nth - child(5) {
+        opacity: 0; - webkit - transition: opacity .5 s cubic - bezier(.19, 1, .22, 1) .25 s;transition: opacity .5 s cubic - bezier(.19, 1, .22, 1) .25 s
+    }
+    h1.logo path: nth - child(6), h1.big.logo path: nth - child(6), h1: hover.logo path: nth - child(6) {
+        opacity: 0; - webkit - transition: opacity .5 s cubic - bezier(.19, 1, .22, 1) .3 s;transition: opacity .5 s cubic - bezier(.19, 1, .22, 1) .3 s
+    }
+    h1.logo path: nth - child(7), h1.big.logo path: nth - child(7), h1: hover.logo path: nth - child(7) {
+        opacity: 0; - webkit - transition: opacity .5 s cubic - bezier(.19, 1, .22, 1) .35 s;transition: opacity .5 s cubic - bezier(.19, 1, .22, 1) .35 s
+    }
+    h1.logo path: nth - child(8), h1.big.logo path: nth - child(8), h1: hover.logo path: nth - child(8) {
+        opacity: 0; - webkit - transition: opacity .5 s cubic - bezier(.19, 1, .22, 1) .4 s;transition: opacity .5 s cubic - bezier(.19, 1, .22, 1) .4 s
+    }
+    h1.logo path: nth - child(9), h1.big.logo path: nth - child(9), h1: hover.logo path: nth - child(9) {
+        opacity: 0; - webkit - transition: opacity .5 s cubic - bezier(.19, 1, .22, 1) .45 s;transition: opacity .5 s cubic - bezier(.19, 1, .22, 1) .45 s
+    }
+    h1.logo path: nth - child(10), h1.big.logo path: nth - child(10), h1: hover.logo path: nth - child(10) {
+        opacity: 0; - webkit - transition: opacity .5 s cubic - bezier(.19, 1, .22, 1) .5 s;transition: opacity .5 s cubic - bezier(.19, 1, .22, 1) .5 s
+    }
+    h1.logo path: nth - child(11), h1.big.logo path: nth - child(11), h1: hover.logo path: nth - child(11) {
+        opacity: 0; - webkit - transition: opacity .5 s cubic - bezier(.19, 1, .22, 1) .55 s;transition: opacity .5 s cubic - bezier(.19, 1, .22, 1) .55 s
+    }
+    h1.logo path: nth - child(12), h1.big.logo path: nth - child(12), h1: hover.logo path: nth - child(12) {
+        opacity: 0; - webkit - transition: opacity .5 s cubic - bezier(.19, 1, .22, 1) .6 s;transition: opacity .5 s cubic - bezier(.19, 1, .22, 1) .6 s
+    }
+    h1.logo path: nth - child(13), h1.big.logo path: nth - child(13), h1: hover.logo path: nth - child(13) {
+        opacity: 0; - webkit - transition: opacity .5 s cubic - bezier(.19, 1, .22, 1) .65 s;transition: opacity .5 s cubic - bezier(.19, 1, .22, 1) .65 s
+    }
+    h1.big.logo - circle - container, h1: hover.logo - circle - container {
+        -webkit - transform: scale(1); - ms - transform: scale(1);
+        transform: scale(1)
+    }
+    h1.big.logo - circle circle, h1: hover.logo - circle circle {
+        stroke - dashoffset: 1 % ; - webkit - transition: stroke 1.15 s cubic - bezier(.86, 0, .07, 1), stroke - dashoffset 1.15 s cubic - bezier(.86, 0, .07, 1) .25 s;
+        transition: stroke 1.15 s cubic - bezier(.86, 0, .07, 1), stroke - dashoffset 1.15 s cubic - bezier(.86, 0, .07, 1) .25 s
+    }
+}.navigation {
+    width: 100 % ;height: 100 % ;position: fixed;left: 0;right: 0;top: 0;bottom: 0;display: none; - webkit - box - direction: normal; - webkit - flex - direction: row; - ms - flex - direction: row;flex - direction: row; - webkit - flex - wrap: nowrap; - ms - flex - wrap: nowrap;flex - wrap: nowrap;z - index: 999
+}.navigation.active {
+    left: 0
+}.navigation > div {
+    width: 50 % ;height: 100 % ;position: relative; - webkit - transform: translate3d(0);transform: translate3d(0)
+}.navigation > div.n - background {
+    width: 100 % ;position: absolute;left: 0;right: 0;top: 0;bottom: 0;background - color: rgba(30, 30, 30, .6);opacity: 0
+}.navigation > div.n - menu {
+    left: 100 % ;display: -webkit - box;display: -webkit - flex;display: -ms - flexbox;display: flex; - webkit - box - direction: normal; - webkit - flex - direction: row; - ms - flex - direction: row;flex - direction: row; - webkit - flex - wrap: wrap; - ms - flex - wrap: wrap;flex - wrap: wrap; - webkit - box - align: center; - webkit - align - items: center; - ms - flex - align: center;align - items: center; - webkit - box - pack: center; - webkit - justify - content: center; - ms - flex - pack: center;justify - content: center;background - color: #1E1E1E}.navigation>div.n-menu .content{width:100%;-webkit-align-self:center;-ms-flex-item-align:center;align-self:center}.navigation>div.n-menu .content li{position:relative;left:100px;opacity:0;text-align:center}.navigation>div.n-menu .content li a{color:# fff;font - size: 3.75 rem
+}
+@media(max - width: 1024 px) {.is - mobile h1.logo path: nth - child(1), .is - mobile h1.logo path: nth - child(10), .is - mobile h1.logo path: nth - child(11), .is - mobile h1.logo path: nth - child(12), .is - mobile h1.logo path: nth - child(13), .is - mobile h1.logo path: nth - child(2), .is - mobile h1.logo path: nth - child(3), .is - mobile h1.logo path: nth - child(4), .is - mobile h1.logo path: nth - child(5), .is - mobile h1.logo path: nth - child(6), .is - mobile h1.logo path: nth - child(7), .is - mobile h1.logo path: nth - child(8), .is - mobile h1.logo path: nth - child(9), .is - mobile h1.big.logo path: nth - child(1), .is - mobile h1.big.logo path: nth - child(10), .is - mobile h1.big.logo path: nth - child(11), .is - mobile h1.big.logo path: nth - child(12), .is - mobile h1.big.logo path: nth - child(13), .is - mobile h1.big.logo path: nth - child(2), .is - mobile h1.big.logo path: nth - child(3), .is - mobile h1.big.logo path: nth - child(4), .is - mobile h1.big.logo path: nth - child(5), .is - mobile h1.big.logo path: nth - child(6), .is - mobile h1.big.logo path: nth - child(7), .is - mobile h1.big.logo path: nth - child(8), .is - mobile h1.big.logo path: nth - child(9), .is - mobile h1: hover.logo path: nth - child(1), .is - mobile h1: hover.logo path: nth - child(10), .is - mobile h1: hover.logo path: nth - child(11), .is - mobile h1: hover.logo path: nth - child(12), .is - mobile h1: hover.logo path: nth - child(13), .is - mobile h1: hover.logo path: nth - child(2), .is - mobile h1: hover.logo path: nth - child(3), .is - mobile h1: hover.logo path: nth - child(4), .is - mobile h1: hover.logo path: nth - child(5), .is - mobile h1: hover.logo path: nth - child(6), .is - mobile h1: hover.logo path: nth - child(7), .is - mobile h1: hover.logo path: nth - child(8), .is - mobile h1: hover.logo path: nth - child(9) {
+        -webkit - transition: fill 1.15 s cubic - bezier(.86, 0, .07, 1);
+        transition: fill 1.15 s cubic - bezier(.86, 0, .07, 1)
+    }.is - mobile h1.big.logo - circle circle, .is - mobile h1.big.logo - circle - container, .is - mobile h1: hover.logo - circle circle, .is - mobile h1: hover.logo - circle - container {
+        -webkit - transition: stroke 1.15 s cubic - bezier(.86, 0, .07, 1);
+        transition: stroke 1.15 s cubic - bezier(.86, 0, .07, 1)
+    }.navigation > div.n - menu.content li a {
+        font - size: 3.125 rem
+    }
+}
+@media(max - width: 768 px) {.navigation > div.n - menu.content li a {
+        font - size: 2 rem;
+        line - height: 1.5 rem
+    }
+}
+@media(max - width: 1024 px) {.navigation > div.n - menu.content li {
+        left: 0;opacity: 1
+    }
+}.navigation > div.n - menu.footer {
+    width: 100 % ;padding: 0 30 px 30 px; - webkit - align - self: flex - end; - ms - flex - item - align: end;align - self: flex - end
+}.navigation > div.n - menu.footer li {
+    width: 57 % ;display: inline - block;color: #666;font-size:.8125rem;text-align:right}.navigation>div.n-menu .footer li:first-child{width:43%;color:# 4 B4B4B;text - align: left
+}.navigation > div.n - menu.footer li a {
+    padding - left: 10 px;
+    color: #666;font-size:.875rem}.navigation>div.n-menu .footer li span{width:25px;height:25px;margin:0 5px;background-color:# 4 B4B4B;
+    border - radius: 12 px;
+    color: #000;display:inline-block;line-height:28px;text-align:center}.navigation>div.n-menu .footer li svg{width:155px;height:24px;position:relative;left:4px;top:8px}@media (max-width:1024px){.navigation>div.n-menu .footer li{width:100%;display:block;color:# 666;
+    text - align: center
+}.navigation > div.n - menu.footer li: first - child {
+    width: 100 % ;margin - bottom: 10 px;color: #666;text-align:center}.navigation>div.n-menu .footer li a{color:# 666
+}.navigation > div.n - menu.footer li span {
+    background - color: #666}.navigation>div.n-menu .footer{padding-bottom:25px}}@media (max-width:768px){.navigation>div.n-menu .footer{padding-bottom:15px}}.navigation>div.n-menu .inprint{width:100%;padding:30px 60px 30px 30px;position:absolute;right:0;background-color:# 333;
+    color: #fff;
+    opacity: 0;
+    font - size: .75 rem;
+    line - height: 1 rem;
+    text - align: left;
+    visibility: hidden
+}.navigation > div.n - menu.inprint.close {
+    width: 24 px;height: 24 px;position: absolute;right: 30 px;top: calc(50 % -9 px);cursor: pointer
+}.navigation > div.n - menu.inprint.close: after, .navigation > div.n - menu.inprint.close: before {
+    height: 3 px;background - color: #fff
+}
+@media(max - width: 1024 px) {.navigation > div.n - menu.inprint {
+        font - size: .9375 rem;
+        padding: 25 px 60 px 25 px 25 px
+    }
+}
+@media(max - width: 768 px) {.navigation > div.n - menu.inprint {
+            font - size: .875 rem;
+            padding: 15 px 60 px 15 px 15 px
+        }
+    }.navigation > div.n - menu.language {
+        width: 100 % ;padding: 30 px 30 px 0; - webkit - align - self: flex - start; - ms - flex - item - align: start;align - self: flex - start;opacity: 0;text - align: left;text - transform: uppercase
+    }.navigation > div.n - menu.language a {
+        color: #666;-webkit-transition:all .35s cubic-bezier(.19,1,.22,1);transition:all .35s cubic-bezier(.19,1,.22,1)}.navigation>div.n-menu .language a.active,.navigation>div.n-menu .language a:hover{color:# fff
+    }.navigation > div.n - menu.language li {
+        padding - left: 15 px;
+        display: inline - block;
+        color: #666;font-size:1.125rem}.navigation>div.n-menu .language li:first-child{padding-left:0}@media (max-width:1024px){.navigation>div.n-menu .language{opacity:1;text-align:center}.navigation>div{width:100%}}.slide-navi{width:auto;height:100%;position:absolute;right:30px;top:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-content:center;-ms-flex-line-pack:center;align-content:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;z-index:5}.slide-navi ul{-webkit-align-self:center;-ms-flex-item-align:center;align-self:center}.slide-navi li{width:14px;height:14px;margin-bottom:16px;background-color:# fff;
+        border - radius: 7 px;
+        cursor: pointer
+    }.slide - navi li: last - child {
+        margin - bottom: 0
+    }.slide - navi li.active {
+        cursor: auto
+    }.slide - navi li.active span {
+        background - color: #003EA1;opacity:1;-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1)}.slide-navi li span{width:16px;height:16px;position:relative;left:-1px;top:-1px;display:inline-block;background-color:transparent;border-radius:8px;opacity:0;-webkit-transform:scale(.5);-ms-transform:scale(.5);transform:scale(.5);-webkit-transition:all 1.15s cubic-bezier(.86,0,.07,1);transition:all 1.15s cubic-bezier(.86,0,.07,1)}.view-approach,.view-approach .content .container,.view-approach .content .container section{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox}@media (max-width:1024px){.slide-navi{right:25px}}@media (max-width:768px){.slide-navi{right:15px}}.subpage{width:100%;height:100%;position:relative}.title{position:absolute;left:0;right:0;top:30px;margin:0 auto;text-align:center;-webkit-transition:color 1.15s cubic-bezier(.86,0,.07,1);transition:color 1.15s cubic-bezier(.86,0,.07,1)}.view-approach{width:100%;height:100%;display:flex;-webkit-box-align:start;-webkit-align-items:flex-start;-ms-flex-align:start;align-items:flex-start;-webkit-align-content:flex-start;-ms-flex-line-pack:start;align-content:flex-start;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;background-color:# 1E1 E1E; - webkit - transition: all 1.15 s cubic - bezier(.86, 0, .07, 1);
+        transition: all 1.15 s cubic - bezier(.86, 0, .07, 1); - webkit - transform: translate3d(0);
+        transform: translate3d(0);
+        z - index: 1
+    }.view - approach.big - circle svg circle.progress {
+        stroke: #fff
+    }.view - approach.content {
+        width: 90 % ;max - width: 564 px;height: 90 vh;max - height: 564 px; - ms - flex - item - align: center;align - self: center;border - radius: 50 % ;overflow: hidden;text - align: center;z - index: 1;transform: translate3d(0); - webkit - mask - image: -webkit - radial - gradient(circle, #fff, #000)}.view-approach .content,.view-approach .content .container{-webkit-align-self:center;-webkit-transform:translate3d(0)}.view-approach .content .container{position:relative;-ms-flex-item-align:center;align-self:center;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;transform:translate3d(0)}.view-approach .content .container section{width:100%;height:100%;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-align-content:center;-ms-flex-line-pack:center;align-content:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;position:relative}.navigation>div.n-menu .view-approach .content .container li section>a,.navigation>div.n-menu .view-approach .content li .container section>a,.view-approach .content .container section>h2,.view-approach .navigation>div.n-menu .content .container li section>a,.view-approach .navigation>div.n-menu .content li .container section>a{width:100%;color:# 003E A1; line - height: normal
+        }.navigation > div.n - menu.view - approach.content.container li section > a.regular,
+        .navigation > div.n - menu.view - approach.content li.container section > a.regular,
+        .view - approach.content.container section > h2.regular,
+        .view - approach.navigation > div.n - menu.content.container li section > a.regular,
+        .view - approach.navigation > div.n - menu.content li.container section > a.regular {
+            font - size: 3.75 rem
+        }.navigation > div.n - menu.view - approach.content.container li section > a.smaller,
+        .navigation > div.n - menu.view - approach.content li.container section > a.smaller,
+        .view - approach.content.container section > h2.smaller,
+        .view - approach.navigation > div.n - menu.content.container li section > a.smaller,
+        .view - approach.navigation > div.n - menu.content li.container section > a.smaller {
+            font - size: 3.125 rem
+        }.navigation > div.n - menu.view - approach.content.container li section > a.small,
+        .navigation > div.n - menu.view - approach.content li.container section > a.small,
+        .view - approach.content.container section > h2.small,
+        .view - approach.navigation > div.n - menu.content.container li section > a.small,
+        .view - approach.navigation > div.n - menu.content li.container section > a.small {
+            font - size: 2.5 rem
+        }
+        @media(max - width: 767 px) {.navigation > div.n - menu.view - approach.content.container li section > a, .navigation > div.n - menu.view - approach.content.container li section > a.regular, .navigation > div.n - menu.view - approach.content.container li section > a.small, .navigation > div.n - menu.view - approach.content.container li section > a.smaller, .navigation > div.n - menu.view - approach.content li.container section > a, .navigation > div.n - menu.view - approach.content li.container section > a.regular, .navigation > div.n - menu.view - approach.content li.container section > a.small, .navigation > div.n - menu.view - approach.content li.container section > a.smaller, .view - approach.content.container section > h2, .view - approach.content.container section > h2.regular, .view - approach.content.container section > h2.small, .view - approach.content.container section > h2.smaller, .view - approach.navigation > div.n - menu.content.container li section > a, .view - approach.navigation > div.n - menu.content.container li section > a.regular, .view - approach.navigation > div.n - menu.content.container li section > a.small, .view - approach.navigation > div.n - menu.content.container li section > a.smaller, .view - approach.navigation > div.n - menu.content li.container section > a, .view - approach.navigation > div.n - menu.content li.container section > a.regular, .view - approach.navigation > div.n - menu.content li.container section > a.small, .view - approach.navigation > div.n - menu.content li.container section > a.smaller {
+                font - size: 2 rem
+            }
+        }.view - approach.content.container section > p {
+            width: 70 % ;max - width: 360 px;margin - bottom: 0;margin - top: 25 px;color: #fff
+        }.view - approach.content.container section > p.regular {
+            font - size: 1 rem
+        }.view - approach.content.container section > p.smaller {
+            font - size: .9375 rem
+        }.view - approach.content.container section > p.small {
+            font - size: .875 rem
+        }.view - approach.content.container section.big - circle {
+            display: none
+        }.view - approach.content.container section.big - circle svg {
+            opacity: .07
+        }
+        @media(max - width: 1024 px) {.view - approach.content {
+                width: 70 % ;max - width: 488 px;height: 70 vh;max - height: 488 px
+            }
+        }
+        @media(max - width: 767 px) {.view - approach.content {
+                width: 100 % ;max - width: none;height: auto;max - height: none;border - radius: 0; - webkit - mask - image: none
+            }.view - approach.content.container {
+                position: static
+            }.view - approach.content.container section {
+                height: 72 % ;min - height: 72 vh
+            }.view - approach.content.container section.big - circle {
+                width: 184 px;height: 184 px;display: block
+            }.view - approach.content.container section.big - circle circle {
+                stroke - width: 16 px
+            }
+        }.view - approach.slide - navi li.active span {
+            background - color: #003EA1}.view-approach .title{color:# fff
+        }
+        @media(max - width: 1024 px) {.view - approach.big - circle {
+                width: 70 % ;height: 70 %
+            }
+        }
+        @media(max - width: 767 px) {.view - approach > .big - circle {
+                display: none
+            }.view - approach.content {
+                z - index: 2
+            }.view - approach.slide - navi {
+                display: none!important
+            }
+        }.view - project {
+            height: 100 % ;background - color: #F2F1F1;color: #1E1E1E;text-align:left}.view-project .arrows{right:calc(50vw - 21px);z-index:5}@media (max-width:767px){.view-project .arrows{display:none}}.view-project .container .content,.view-project .container section{height:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox}.view-project .container{width:100%;height:100vh;overflow-x:scroll}.view-project .container .content{display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;position:relative}@media (max-width:767px){.view-project .container .content{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row}}.view-project .container section{margin-right:30px;position:relative;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:start;-webkit-align-items:flex-start;-ms-flex-align:start;align-items:flex-start}.view-project .container section.next-project{width:450px;padding-left:40px;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.view-project .container section.next-project .n-p-background{width:50%;height:100%;position:absolute;right:0;top:0;background-position:left 50%;opacity:.35}.view-start .content .big-circle svg,.view-talk .big-circle svg{opacity:.07}@media (max-width:767px){.view-project .container section.next-project .n-p-background{display:none}}.view-project .container section.next-project .n-p-button{width:370px;height:370px;position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;background-color:# 003E A1;border - radius: 185 px; - webkit - transition: background - color .5 s cubic - bezier(.19, 1, .22, 1);transition: background - color .5 s cubic - bezier(.19, 1, .22, 1)
+        }.view - project.container section.next - project.n - p - button: hover,
+        .view - services {
+            background - color: #1E1E1E}.view-project .container section.next-project .n-p-button:hover div{left:10px}.view-project .container section.next-project .n-p-button div{position:relative;left:0;-webkit-transition:left .35s cubic-bezier(.19,1,.22,1);transition:left .35s cubic-bezier(.19,1,.22,1)}.view-project .container section.next-project .n-p-button .view-work .project-wrapper .project .p-name,.view-project .container section.next-project .n-p-button h3,.view-work .project-wrapper .project .view-project .container section.next-project .n-p-button .p-name{margin:30px 0;text-align:center}@media (max-width:767px){.view-project .container section.next-project .n-p-button{width:260px;height:260px;border-radius:130px;margin:0 auto}}.view-project .container section.next-project a{width:100%;color:# fff
+        }
+        @media(max - width: 767 px) {.view - project.container section.next - project {
+                width: 100 % ;padding: 45 px 0
+            }
+        }.view - project.container section.p - description {
+            width: 270 px;margin - right: -160 px;padding - left: 30 px;z - index: 3
+        }.view - project.container section.p - description.p - details,
+        .view - project.container section.p - description > p {
+            width: 240 px;padding - top: 145 px
+        }.view - project.container section.p - description.p - d - content {
+            width: 100 % ;padding - bottom: 60 px; - webkit - align - self: flex - end; - ms - flex - item - align: end;align - self: flex - end
+        }.view - project.container section.p - description.p - d - content p {
+            margin - bottom: 0;
+            margin - top: 40 px;
+            font - size: .8125 rem
+        }.view - project.container section.p - description.p - d - content p: first - child {
+            margin - top: 0
+        }.view - project.container section.p - description.p - d - content li {
+            font - size: 1 rem
+        }
+        @media(max - width: 1024 px) {.view - project.container section.p - description.p - d - content li {
+                font - size: .9375 rem;
+                line - height: 1.25 rem
+            }
+        }
+        @media(max - width: 767 px) {.view - project.container section.p - description.p - d - content li {
+                font - size: .875 rem;
+                line - height: 1.125 rem
+            }.view - project.container section.p - description {
+                width: 100 vh;height: auto;margin: 0;padding: 15 px
+            }.view - project.container section.p - description > p {
+                width: 80 % ;padding - top: 0
+            }.view - project.container section.p - description.p - d - content {
+                -webkit - align - self: auto; - ms - flex - item - align: auto;
+                align - self: auto;
+                padding - bottom: 0
+            }.view - project.container section.p - description.p - d - content p {
+                margin - top: 20 px
+            }.view - project.container section.p - description.p - d - details {
+                padding: 15 px 0
+            }
+        }.view - project.container section.p - title {
+            width: 50 % ;margin - right: 30 px;overflow: hidden
+        }.view - project.container section.p - title.p - t - background {
+            width: 100 % ;height: 100 % ;position: absolute;left: 0;right: 0;top: 0;bottom: 0;background - position: 50 % 50 %
+        }.navigation > div.n - menu.content li.view - project.container section.p - title a,
+        .view - project.container section.p - title.navigation > div.n - menu.content li a,
+        .view - project.container section.p - title h2,
+        .view - project.container section.p - title p {
+            margin - left: 30 px;
+            z - index: 3
+        }.navigation > div.n - menu.content li.view - project.container section.p - title a,
+        .view - project.container section.p - title.navigation > div.n - menu.content li a,
+        .view - project.container section.p - title h2 {
+            width: 100 % ;position: relative;left: 0;margin - top: 150 px;padding - right: 25 px;color: #003EA1}.view-project .container section.p-title p{width:240px;position:absolute;left:0;bottom:60px}.view-project .title{color:# 003E A1; - webkit - transition: top .5 s cubic - bezier(.86, 0, .07, 1);transition: top .5 s cubic - bezier(.86, 0, .07, 1);top: -25 px;z - index: 5
+        }.view - project.title.visible {
+            top: 30 px
+        }
+        @media(max - width: 767 px) {.view - project.container section.p - title {
+                width: 100 % ;height: 100 vw;max - height: 320 px;display: -webkit - box;display: -webkit - flex;display: -ms - flexbox;display: flex; - webkit - align - content: center; - ms - flex - line - pack: center;align - content: center; - webkit - box - align: center; - webkit - align - items: center; - ms - flex - align: center;align - items: center; - webkit - box - pack: center; - webkit - justify - content: center; - ms - flex - pack: center;justify - content: center
+            }.navigation > div.n - menu.content li.view - project.container section.p - title a, .view - project.container section.p - title.navigation > div.n - menu.content li a, .view - project.container section.p - title h2 {
+                margin: 0;left: auto;text - align: center
+            }.view - project.container section, .view - project.container section.p - title {
+                margin - right: 0
+            }.view - project.container {
+                height: auto;overflow - y: hidden;overflow - x: hidden
+            }.view - project.close {
+                position: fixed;right: 60 px;top: 26 px
+            }
+        }.view - services {
+            width: 100 % ;height: 100 % ;display: -webkit - box;display: -webkit - flex;display: -ms - flexbox;display: flex; - webkit - box - orient: horizontal; - webkit - box - direction: normal; - webkit - flex - direction: row; - ms - flex - direction: row;flex - direction: row; - webkit - flex - wrap: wrap; - ms - flex - wrap: wrap;flex - wrap: wrap; - webkit - box - align: center; - webkit - align - items: center; - ms - flex - align: center;align - items: center; - webkit - align - content: center; - ms - flex - line - pack: center;align - content: center;color: #fff
+        }.view - services.background {
+            position: absolute;width: 100 % ;height: 100 % ;left: 0;top: 0;right: 0;background - position: 50 % 50 %
+        }.view - services.content {
+            width: 100 % ;padding: 0 30 px
+        }
+        @media(max - width: 1024 px) {.view - services.content {
+                padding: 0 25 px
+            }
+        }.view - services.services - list {
+            padding - top: 150 px;
+            position: relative;
+            display: -webkit - box!important;
+            display: -webkit - flex!important;
+            display: -ms - flexbox!important;
+            display: flex!important; - webkit - box - orient: horizontal; - webkit - box - direction: normal; - webkit - flex - direction: row; - ms - flex - direction: row;
+            flex - direction: row; - webkit - flex - wrap: wrap; - ms - flex - wrap: wrap;
+            flex - wrap: wrap;
+            z - index: 1
+        }.view - start,
+        .view - start.content,
+        .view - start.preloader,
+        .view - talk,
+        .view - us.content,
+        .view - us section {
+            -webkit - box - orient: vertical
+        }.view - start,
+        .view - start.content,
+        .view - start.preloader,
+        .view - us.content,
+        .view - us section,
+        .view - us section.about {
+            display: -webkit - box;display: -ms - flexbox
+        }.view - start,
+        .view - start.content,
+        .view - talk,
+        .view - us.content,
+        .view - us section,
+        .view - us section.about {
+            display: -webkit - flex
+        }.view - services.service - name {
+            height: 50 px;margin - top: 0;position: relative;top: 0;line - height: 1 rem;text - align: left
+        }.navigation > div.n - menu.content li.view - services a,
+        .view - services.navigation > div.n - menu.content li a,
+        .view - services h2 {
+            margin - bottom: 80 px;
+            color: #003EA1}.view-talk,.view-talk a{color:# fff
+        }.view - services ul {
+            width: 25 % ;margin - bottom: 75 px;padding - right: 30 px
+        }.view - services ul li {
+            font - size: 1 rem;
+            padding - bottom: 3 px
+        }.view - services ul li: first - child,
+        .view - services ul li: last - child {
+            padding - bottom: 0
+        }
+        @media(max - width: 1024 px) {.view - services {
+                -webkit - box - align: start; - webkit - align - items: flex - start; - ms - flex - align: start;
+                align - items: flex - start;
+                padding - top: 180 px
+            }.view - services.services - list {
+                padding - top: 0
+            }.view - services ul {
+                width: 33.3 %
+            }
+        }
+        @media(max - width: 768 px) {.view - services ul {
+                width: 50 % ;margin - bottom: 55 px
+            }
+        }
+        @media(max - width: 480 px) {.view - services {
+                padding - top: 100 px
+            }.view - services ul {
+                width: 100 % ;margin - bottom: 75 px
+            }
+        }.view - start {
+            width: 100 % ;height: 100 vh;position: relative;display: flex; - webkit - box - direction: normal; - webkit - flex - direction: column; - ms - flex - direction: column;flex - direction: column; - webkit - flex - wrap: wrap; - ms - flex - wrap: wrap;flex - wrap: wrap; - webkit - box - align: center; - webkit - align - items: center; - ms - flex - align: center;align - items: center; - webkit - align - content: center; - ms - flex - line - pack: center;align - content: center; - webkit - box - pack: center; - webkit - justify - content: center; - ms - flex - pack: center;justify - content: center;color: #fff;z - index: 99
+        }.view - start.content {
+            width: 100 % ;height: 100 % ;position: absolute;left: 0;right: 0;top: 0;bottom: 0;display: flex; - webkit - box - direction: normal; - webkit - flex - direction: column; - ms - flex - direction: column;flex - direction: column; - webkit - flex - wrap: nowrap; - ms - flex - wrap: nowrap;flex - wrap: nowrap; - webkit - box - align: center; - webkit - align - items: center; - ms - flex - align: center;align - items: center; - webkit - align - content: center; - ms - flex - line - pack: center;align - content: center; - webkit - box - pack: center; - webkit - justify - content: center; - ms - flex - pack: center;justify - content: center;z - index: 1
+        }.view - start.content.poster,
+        .view - start.content.video {
+            z - index: -1
+        }.navigation > div.n - menu.view - start.content li a,
+        .view - start.content h2,
+        .view - start.content p,
+        .view - start.navigation > div.n - menu.content li a {
+            position: relative;z - index: 2
+        }.navigation > div.n - menu.view - start.content li a,
+        .view - start.content h2,
+        .view - start.navigation > div.n - menu.content li a {
+            width: 100 % ;margin - top: 30 px;padding - bottom: 20 px;text - align: center
+        }
+        @media(max - width: 767 px) {.navigation > div.n - menu.view - start.content li a, .view - start.content h2, .view - start.navigation > div.n - menu.content li a {
+                margin - top: 0;
+                padding - bottom: 40 px
+            }
+        }.view - start.content p {
+            width: 100 % ;max - width: 405 px;margin - bottom: 0;padding: 0 30 px;text - align: center
+        }
+        @media(max - width: 767 px) {.view - start.content p {
+                padding: 0 25 px
+            }
+        }
+        @media(max - width: 480 px) {.view - start.content p {
+                padding: 0 15 px
+            }
+        }
+        @media only screen and(-webkit - min - device - pixel - ratio: 2),
+        (-webkit - min - device - pixel - ratio: 2),
+        (min - resolution: 192 dpi) {.view - start.content.big - circle {
+                max - width: 720 px;
+                max - height: 720 px
+            }
+        }.view - start.preloader {
+            width: 100 % ;height: 100 % ;position: absolute;left: 0;right: 0;top: 0;bottom: 0;display: -webkit - flex;display: flex; - webkit - box - direction: normal; - webkit - flex - direction: column; - ms - flex - direction: column;flex - direction: column; - webkit - flex - wrap: wrap; - ms - flex - wrap: wrap;flex - wrap: wrap; - webkit - box - align: center; - webkit - align - items: center; - ms - flex - align: center;align - items: center; - webkit - align - content: center; - ms - flex - line - pack: center;align - content: center; - webkit - box - pack: center; - webkit - justify - content: center; - ms - flex - pack: center;justify - content: center;background - color: #003EA1;z-index:2}.view-talk,.view-us .content{-webkit-flex-direction:column}.view-start .preloader .p-content{width:72px;height:72px;position:relative}.view-start .preloader .p-content .p-c-circle{width:100%;height:100%;position:absolute}.view-start .preloader .p-content .p-c-circle circle{stroke:# fff;stroke - width: 6 px;stroke - dashoffset: 472 % ; - webkit - transition: stroke 1.15 s cubic - bezier(.86, 0, .07, 1),
+            stroke - dashoffset .75 s cubic - bezier(.19, 1, .22, 1) .5 s;transition: stroke 1.15 s cubic - bezier(.86, 0, .07, 1),
+            stroke - dashoffset .75 s cubic - bezier(.19, 1, .22, 1) .5 s
+        }.view - start.preloader.p - content.p - c - letter {
+            width: 30 px;height: 32 px;position: absolute;left: 21 px;top: 19 px
+        }.view - talk {
+            width: 100 % ;height: 100 % ;display: -webkit - box;display: -ms - flexbox;display: flex; - webkit - box - direction: normal; - ms - flex - direction: column;flex - direction: column; - webkit - flex - wrap: nowrap; - ms - flex - wrap: nowrap;flex - wrap: nowrap; - webkit - box - align: center; - webkit - align - items: center; - ms - flex - align: center;align - items: center; - webkit - align - content: center; - ms - flex - line - pack: center;align - content: center; - webkit - box - pack: center; - webkit - justify - content: center; - ms - flex - pack: center;justify - content: center;text - align: center;z - index: 1
+        }.navigation > div.n - menu.content li.view - talk > a,
+        .view - talk > h2 {
+            width: 100 % ;margin - top: 30 px;position: relative;padding - bottom: 60 px;z - index: 1
+        }.view - talk.big - circle {
+            z - index: 2
+        }.view - talk.address,
+        .view - talk.contact {
+            margin - top: 10 px;
+            position: relative;
+            z - index: 4
+        }.view - talk.poster,
+        .view - talk.video {
+            z - index: 1
+        }.view - services.view - talk.service - name,
+        .view - talk.view - services.service - name,
+        .view - talk h4 {
+            z - index: 2
+        }.view - project.container section.p - description.p - d - content.view - talk li,
+        .view - talk.view - project.container section.p - description.p - d - content li,
+        .view - talk strong {
+            position: relative;z - index: 3
+        }.view - us {
+            height: 100 % ;color: #1E1E1E;text-align:left}.view-us .content{width:100%;height:100vh;position:relative;left:0;display:flex;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:start;-webkit-align-items:flex-start;-ms-flex-align:start;align-items:flex-start;-webkit-align-content:flex-start;-ms-flex-line-pack:start;align-content:flex-start;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;overflow-x:scroll;overflow-y:auto}.navigation>div.n-menu .view-us .content li a,.view-us .content h2,.view-us .navigation>div.n-menu .content li a{margin-left:30px}.view-us .slide-navi{z-index:2}.view-us .title{color:# 003E A1;z - index: 3
+        }.view - us section {
+            width: 100 % ;height: 100 % ;position: relative;display: flex; - webkit - box - direction: normal; - webkit - flex - direction: column; - ms - flex - direction: column;flex - direction: column; - webkit - flex - wrap: wrap; - ms - flex - wrap: wrap;flex - wrap: wrap; - webkit - box - align: start; - webkit - align - items: flex - start; - ms - flex - align: start;align - items: flex - start; - webkit - align - content: flex - start; - ms - flex - line - pack: start;align - content: flex - start; - webkit - box - pack: center; - webkit - justify - content: center; - ms - flex - pack: center;justify - content: center; - webkit - transform: translate3d(0);transform: translate3d(0)
+        }.navigation > div.n - menu.content li.view - us section.info a,
+        .view - us section.info.navigation > div.n - menu.content li a,
+        .view - us section.info h2 {
+            position: relative;left: 0
+        }.view - us section.about {
+            left: -100 px;display: flex; - webkit - box - orient: horizontal; - webkit - box - direction: normal; - webkit - flex - direction: row; - ms - flex - direction: row;flex - direction: row; - webkit - flex - wrap: wrap; - ms - flex - wrap: wrap;flex - wrap: wrap; - webkit - box - pack: start; - webkit - justify - content: flex - start; - ms - flex - pack: start;justify - content: flex - start;color: #fff;z - index: 2
+        }.view - us section.about.a - background {
+            width: 100 % ;height: 100 % ;position: absolute;left: 0;top: 0;background - color: #1E1E1E;z-index:0}.view-us section.about .a-info{width:75%;margin-top:70px;position:relative;z-index:1}.view-us section.about .a-info .a-i-content{width:35%;margin:0 auto}.view-project .container section.next-project .n-p-button .view-us section.about .a-info .a-i-content p,.view-project .container section.p-title .view-us section.about .a-info .a-i-content p,.view-us section.about .a-info .a-i-content .view-project .container section.next-project .n-p-button p,.view-us section.about .a-info .a-i-content .view-project .container section.p-title p,.view-us section.about .a-info .a-i-content h5{margin-bottom:1rem}.view-us section.about .a-title{width:50%;margin-top:140px;position:relative;left:100px;z-index:1;-webkit-transform:translate3d(0);transform:translate3d(0)}.view-us section.about div{position:relative}.view-us section.people{-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;left:-25%;background-color:# F2F1F1
+        }.view - us section.people div {
+            width: 25 % ;height: 50 % ;position: relative
+        }.view - us section.people div.person - large {
+            height: 100 %
+        }.view - us section.people div span {
+            width: 100 % ;height: 100 % ;position: absolute;left: 0;right: 0;top: 0;bottom: 0;background - position: top center
+        }
+        @media(min - width: 1600 px) {.view - services.service - name {
+                font - size: 1.25 rem
+            }.view - services ul li {
+                font - size: 1.125 rem
+            }.navigation > div.n - menu.content li.view - us a, .view - us.navigation > div.n - menu.content li a, .view - us h2 {
+                font - size: 4 rem;
+                line - height: 3.875 rem
+            }.view - project.container section.next - project.n - p - button.view - us section.about.a - info.a - i - content p, .view - project.container section.p - title.view - us section.about.a - info.a - i - content p, .view - us section.about.a - info.a - i - content, .view - us section.about.a - info.a - i - content.view - project.container section.next - project.n - p - button p, .view - us section.about.a - info.a - i - content.view - project.container section.p - title p, .view - us section.about.a - info.a - i - content h5 {
+                font - size: 1.125 rem
+            }
+        }
+        @media(max - width: 1024 px) {.navigation > div.n - menu.content li.view - us a, .view - us.navigation > div.n - menu.content li a, .view - us h2 {
+                font - size: 3 rem;
+                line - height: 2.875 rem
+            }.view - us section.about.a - info.a - i - content {
+                width: 45 %
+            }
+        }
+        @media(max - width: 767 px) {.navigation > div.n - menu.content li.view - talk > a, .view - talk > h2 {
+                padding - bottom: 30 px
+            }.view - us section.about.a - info, .view - us section.about.a - title {
+                padding - left: 15 px;
+                padding - right: 15 px;
+                position: static;
+                text - align: left
+            }.view - us.content, .view - us section.people {
+                -webkit - box - orient: horizontal; - webkit - box - direction: normal
+            }.view - us.content {
+                height: auto; - webkit - flex - direction: row; - ms - flex - direction: row;flex - direction: row; - webkit - flex - wrap: wrap; - ms - flex - wrap: wrap;flex - wrap: wrap;overflow - y: hidden
+            }.view - us.slide - navi {
+                display: none!important
+            }.view - us section {
+                position: static
+            }.view - us section.info {
+                height: 90 % ;min - height: 90 vh
+            }.view - us section.about {
+                background - color: #1E1E1E;height:auto;left:0;padding:100px 0}.view-us section.about .a-background{display:none}.view-us section.about .a-info{width:100%;margin-top:30px}.view-us section.about .a-info .a-i-content{width:50%;margin:0}.view-us section.about .a-title{width:90%;margin-top:0}.navigation>div.n-menu .content li .view-us section.about .a-title a,.view-us section.about .a-title .navigation>div.n-menu .content li a,.view-us section.about .a-title h2{margin-left:0}.view-us section.people{height:100vh;position:relative;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;left:0}.view-us section.people div{width:50%;height:50vh}}.view-work .project-wrapper,.view-work .project-wrapper .project{-webkit-box-orient:vertical;-webkit-flex-direction:column;display:-webkit-box}@media (max-width:480px){.view-us section.people div{height:25vh}}.view-work{width:100%;height:100%;color:# 1E1 E1E;
+                text - align: left
+            }.view - work.project - wrapper {
+                width: auto;height: 100 % ;position: relative;left: 0;display: -webkit - flex;display: -ms - flexbox;display: flex; - webkit - box - direction: normal; - ms - flex - direction: column;flex - direction: column; - webkit - flex - wrap: wrap; - ms - flex - wrap: wrap;flex - wrap: wrap;overflow - x: scroll
+            }.view - work.project - wrapper.project {
+                width: 50 % ;height: 50 % ;min - height: auto;position: relative;display: -webkit - flex;display: -ms - flexbox;display: flex; - webkit - box - direction: normal; - ms - flex - direction: column;flex - direction: column; - webkit - flex - wrap: wrap; - ms - flex - wrap: wrap;flex - wrap: wrap; - webkit - box - align: center; - webkit - align - items: center; - ms - flex - align: center;align - items: center; - webkit - box - pack: center; - webkit - justify - content: center; - ms - flex - pack: center;justify - content: center;overflow: hidden
+            }.view - work.project - wrapper.project: hover.p - description {
+                opacity: 1;top: 0; - webkit - transform: scale(1); - ms - transform: scale(1);transform: scale(1)
+            }.view - project.container section.next - project.n - p - button.view - work.project - wrapper.project: hover.p - description p, .view - project.container section.p - title.view - work.project - wrapper.project: hover.p - description p, .view - work.project - wrapper.project: hover.p - description.p - name, .view - work.project - wrapper.project: hover.p - description.view - project.container section.next - project.n - p - button p, .view - work.project - wrapper.project: hover.p - description.view - project.container section.p - title p, .view - work.project - wrapper.project: hover.p - description h3, .view - work.project - wrapper.project: hover.p - description h5, .view - work.project - wrapper.project: hover.p - description p {
+                top: 0;opacity: 1
+            }.view - work.project - wrapper.project: hover.p - thumb - hover {
+                opacity: 1
+            }.view - work.project - wrapper.project.large {
+                height: 100 %
+            }.view - work.project - wrapper.project.p - description {
+                width: 40 vh;height: 40 vh;position: relative;top: 25 vh;display: -webkit - box;display: -webkit - flex;display: -ms - flexbox;display: flex; - webkit - box - orient: vertical; - webkit - box - direction: normal; - webkit - flex - direction: column; - ms - flex - direction: column;flex - direction: column; - webkit - flex - wrap: wrap; - ms - flex - wrap: wrap;flex - wrap: wrap; - webkit - box - align: center; - webkit - align - items: center; - ms - flex - align: center;align - items: center; - webkit - box - pack: center; - webkit - justify - content: center; - ms - flex - pack: center;justify - content: center;background - color: rgba(0, 62, 161, .9);border - radius: 20 vh;color: #fff;opacity: 0; - webkit - transform: scale(.8); - ms - transform: scale(.8);transform: scale(.8); - webkit - transition: all .75 s cubic - bezier(.19, 1, .22, 1);transition: all .75 s cubic - bezier(.19, 1, .22, 1); - webkit - transition - delay: 0;transition - delay: 0;z - index: 1
+            }.view - work.project - wrapper.project.p - description.p - d - client - title {
+                font - size: .8125 rem;
+                margin - bottom: 0;
+                margin - top: 25 px
+            }.view - project.container section.next - project.n - p - button.view - work.project - wrapper.project.p - description p, .view - project.container section.p - title.view - work.project - wrapper.project.p - description p, .view - work.project - wrapper.project.p - description.p - name, .view - work.project - wrapper.project.p - description.view - project.container section.next - project.n - p - button p, .view - work.project - wrapper.project.p - description.view - project.container section.p - title p, .view - work.project - wrapper.project.p - description h3, .view - work.project - wrapper.project.p - description h5, .view - work.project - wrapper.project.p - description p {
+                position: relative;top: 15 px;opacity: 0;text - align: center; - webkit - transition: all .65 s cubic - bezier(.23, 1, .32, 1);transition: all .65 s cubic - bezier(.23, 1, .32, 1)
+            }.view - work.project - wrapper.project.p - description.p - name, .view - work.project - wrapper.project.p - description h3 {
+                padding: 0 20 px; - webkit - transition - delay: .1;transition - delay: .1
+            }.view - project.container section.next - project.n - p - button.view - work.project - wrapper.project.p - description p, .view - project.container section.p - title.view - work.project - wrapper.project.p - description p, .view - work.project - wrapper.project.p - description.view - project.container section.next - project.n - p - button p, .view - work.project - wrapper.project.p - description.view - project.container section.p - title p, .view - work.project - wrapper.project.p - description h5 {
+                -webkit - transition - delay: .2 s;
+                transition - delay: .2 s
+            }.view - work.project - wrapper.project.p - description p {
+                -webkit - transition - delay: .15 s;
+                transition - delay: .15 s
+            }.view - work.project - wrapper.project.p - name {
+                position: relative;font - size: 1.5 rem;z - index: 1
+            }.view - work.project - wrapper.project.p - thumb, .view - work.project - wrapper.project.p - thumb - hover {
+                width: 100 % ;height: 100 % ;position: absolute;left: 0;right: 0;top: 0;bottom: 0;background - repeat: no - repeat;background - position: center center;background - size: cover;opacity: 1
+            }.view - work.project - wrapper.project.p - thumb - hover {
+                opacity: 0; - webkit - transition: all .4 s cubic - bezier(.23, 1, .32, 1);transition: all .4 s cubic - bezier(.23, 1, .32, 1)
+            }.view - work.project - wrapper.project a {
+                color: #1E1E1E}@media (max-width:1024px){.view-work .project-wrapper .project .p-name{color:# fff;text - shadow: 1 px 1 px 1 px rgba(0, 0, 0, .8)
+            }
+        }.view - work.slide - navi {
+            z - index: 2
+        }
+        @media(max - width: 767 px) {.view - work.slide - navi {
+                display: none!important
+            }
+        }.view - work.title {
+            position: fixed;color: #003EA1;z-index:3}@media (max-width:768px){.view-work .project-wrapper{height:auto;overflow:hidden}.view-work .project-wrapper .project{width:100%;height:50vh;min-height:50vh}.view-work .project-wrapper .project.large{height:50vh}.view-work .title{position:absolute}}
