@@ -1,0 +1,70 @@
+html(ng-app='teleferico')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    title Teleferico Puebla
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='stylesheet', href='stylesheets/reset.css')
+    link(rel='stylesheet', type='text/css', href='stylesheets/bootstrap.min.css')
+    link(rel='stylesheet', href='stylesheets/animate.css')
+    link(rel='stylesheet', href='stylesheets/hover-min.css')
+    link(rel='stylesheet', href='stylesheets/panelStyle.css')
+    link(rel='stylesheet', href='owl-carousel/owl.carousel.css')
+    link(rel='stylesheet', href='owl-carousel/owl.theme.css')
+    link(rel='stylesheet', href='stylesheets/style4video.css')
+    link(rel='stylesheet', href='stylesheets/hamburgerBtn.css')
+    link(href='https://fonts.googleapis.com/css?family=Fjalla+One', rel='stylesheet', type='text/css')  
+    script(src='javascript/jquery-2.1.1.js')
+    script(src='javascript/angular.min.js')
+    script(src='javascript/main.js')
+    script(src='javascript/angularModule.js')
+    script(src='javascript/maps.js')
+    
+    script(src='javascript/bootstrap.min.js')
+    script(src='owl-carousel/owl.carousel.js')
+    
+
+  body(ng-controller='teleController')
+
+     
+        
+    .container-fluid.animated.fadeIn 
+        main.cd-main-content
+            .row
+                iframe.fullscreen-bg__video(src='http://www.youtube.com/embed/5qouquQ7980',frameborder="0" allowfullscreen)
+            .row(style='margin-top:4%;')
+                .col-md-offset-10.col-md-2
+                   a#nav-toggle.cd-btn(href='#',style='background-color:transparent;position:absolute;')
+                      span
+            .row(style='bottom:10%; position:absolute')
+                .col-md-offset-2.col-md-10
+                    h3(style='font-size:250%') Vista en Vivo del Teleférico, Puebla
+            
+
+
+
+
+    .cd-panel.from-right
+      header.cd-panel-header
+        h1 ¡Vive la Experiencia!
+        a.cd-panel-close(href='#0') Close
+      .cd-panel-container(style='opacity: 0.8; filter: alpha(opacity=80);')
+        .cd-panel-content
+          p(align='center')
+           a(href='/') 
+            button(style='font-size:350%; margin-top:5%  ').btn.btn-lg.btn-block.btn-primary Inicio
+           a(href='/teleferico') 
+            button(style='font-size:350%; margin-top:5%  ').btn.btn-lg.btn-block.btn-primary Teleférico
+           a(href='/parquePaseo')
+            button(style='font-size:350%; margin-top:5%  ').btn.btn-lg.btn-block.btn-primary Parque Paseo del Teleférico
+           a(href='#')
+            button(style='font-size:350%; margin-top:5%  ').btn.btn-lg.btn-block.btn-primary Mural Urbano
+           .row
+             .col-md-10.col-md-offset-1(style='margin-top:3%')
+                a.twitter-timeline(href='https://twitter.com/hashtag/telefericoPuebla', data-widget-id='693094450403237888') Tweets sobre #telefericoPuebla
+                                                          script.
+                                                            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
+
+
+           

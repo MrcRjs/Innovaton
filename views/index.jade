@@ -65,12 +65,21 @@ html
       .cd-panel-container(style='opacity: 0.8; filter: alpha(opacity=80);')
         .cd-panel-content
           p(align='center')
-           a(href='/') 
-            button(style='font-size:350%; margin-top:5%  ').btn.btn-lg.btn-block.btn-primary Inicio
+           
            a(href='/teleferico') 
             button(style='font-size:350%; margin-top:5%  ').btn.btn-lg.btn-block.btn-primary Teleférico
-           a(href='#')
+           a(href='/parquePaseo')
             button(style='font-size:350%; margin-top:5%  ').btn.btn-lg.btn-block.btn-primary Parque Paseo del Teleférico
            a(href='#')
             button(style='font-size:350%; margin-top:5%  ').btn.btn-lg.btn-block.btn-primary Mural Urbano
+           a(href='/streaming') 
+            button(style='font-size:350%; margin-top:5%  ').btn.btn-lg.btn-block.btn-primary En Vivo
+           .row
+             .col-md-10.col-md-offset-1(style='margin-top:3%')
+                a.twitter-timeline(href='https://twitter.com/hashtag/telefericoPuebla', data-widget-id='693094450403237888') Tweets sobre #telefericoPuebla
+                                                          script.
+                                                            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
+
+
            

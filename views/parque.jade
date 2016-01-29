@@ -39,7 +39,7 @@ html(ng-app='teleferico')
                         .well
                             .row
                                 .col-md-12
-                                    h1(style='font-size:420%') Teleférico
+                                    h1(style='font-size:420%') Parque Paseo del Teleférico
               div 
                 .row    
                     .col-md-12
@@ -58,17 +58,15 @@ html(ng-app='teleferico')
             
               div
                 .row
-                    .col-md-offset-1.col-md-10
-                        .well
-                            .row
-                                .col-md-12#map
-
-              
+                    .col-md-12
+                         a.thumbnail(href='#')
+                            img(src='img/tele.jpg').img-rounded.img-responsive 
 
 
 
 
-    .cd-panel.from-right
+
+      .cd-panel.from-right
       header.cd-panel-header.pull-center
         h1 ¡Vive la Experiencia!
         a.cd-panel-close(href='#0') Close
@@ -77,11 +75,9 @@ html(ng-app='teleferico')
           p(align='center')
            a(href='/') 
             button(style='font-size:350%; margin-top:5%  ').btn.btn-lg.btn-block.btn-primary Inicio
-           a(href='/parquePaseo')
-            button(style='font-size:350%; margin-top:5%  ').btn.btn-lg.btn-block.btn-primary Parque Paseo del Teleférico
+           a(href='/teleferico') 
+            button(style='font-size:350%; margin-top:5%  ').btn.btn-lg.btn-block.btn-primary Teleférico
            a(href='#')
             button(style='font-size:350%; margin-top:5%  ').btn.btn-lg.btn-block.btn-primary Mural Urbano
-           a(href='/streaming') 
+          a(href='/streaming')
             button(style='font-size:350%; margin-top:5%  ').btn.btn-lg.btn-block.btn-primary En Vivo
-
-  script(async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApGDtXEF9UYqdCmutZaV7tS2vW6x1LgOQ&callback=initMap")
