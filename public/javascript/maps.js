@@ -1,9 +1,9 @@
 function initMap() {
-  var chicago = {lat: 41.85, lng: -87.65};
-  var indianapolis = {lat: 39.79, lng: -86.14};
+  var estacion1 = {lat: 19.060658, lng: -98.184772};
+  var estacion2 = {lat: 19.057555, lng: -98.180830};
 
   var map = new google.maps.Map(document.getElementById('map'), {
-    center: chicago,
+    center: estacion1,
     scrollwheel: false,
     zoom: 7
   });
@@ -14,9 +14,9 @@ function initMap() {
 
   // Set destination, origin and travel mode.
   var request = {
-    destination: indianapolis,
-    origin: chicago,
-    travelMode: google.maps.TravelMode.DRIVING
+    destination: estacion2,
+    origin: estacion1,
+    travelMode: google.maps.TravelMode.WALKING
   };
 
   // Pass the directions request to the directions service.
