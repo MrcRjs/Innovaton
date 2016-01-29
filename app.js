@@ -42,6 +42,9 @@ app.get('/parquePaseo' ,function (request,response){
 app.get('/streaming' ,function (request,response){
     response.render('streaming')
 })
+app.get('/mural' ,function (request,response){
+    response.render('mural')
+})
 
 
 app.listen(3000, function(){

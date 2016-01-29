@@ -11,7 +11,7 @@ html(ng-app='teleferico')
     link(rel='stylesheet', href='stylesheets/panelStyle.css')
     link(rel='stylesheet', href='owl-carousel/owl.carousel.css')
     link(rel='stylesheet', href='owl-carousel/owl.theme.css')
-    link(rel='stylesheet', href='stylesheets/style4video.css')
+    
     link(rel='stylesheet', href='stylesheets/hamburgerBtn.css')
     link(href='https://fonts.googleapis.com/css?family=Fjalla+One', rel='stylesheet', type='text/css')  
     script(src='javascript/jquery-2.1.1.js')
@@ -25,27 +25,49 @@ html(ng-app='teleferico')
     
 
   body(ng-controller='teleController')
-
-     
-        
     .container-fluid.animated.fadeIn 
         main.cd-main-content
-            .row
-                iframe.fullscreen-bg__video(src='http://www.youtube.com/embed/5qouquQ7980',frameborder="0" allowfullscreen)
             .row(style='margin-top:4%;')
                 .col-md-offset-10.col-md-2
-                   a#nav-toggle.cd-btn(href='#',style='background-color:transparent;position:absolute;')
+                   a#nav-toggle.cd-btn(href='#',style='background-color: transparent;')
                       span
-            .row(style='bottom:10%; position:absolute')
-                .col-md-offset-2.col-md-10
-                    h3(style='font-size:250%') Vista en Vivo del Teleférico, Puebla
+            #owl-example.owl-carousel(style='margin-top:0%;')
+             
+              div 
+                .row
+                    .col-md-offset-1.col-md-10
+                        .well
+                            .row
+                                .col-md-12
+                                    h1(style='font-size:420%') Mural Urbano
+              div 
+                .row    
+                    .col-md-12
+                        a.thumbnail(href='#')
+                            img(src='img/tele.jpg').img-rounded.img-responsive 
+              div  
+                .row
+                    .col-md-offset-1.col-md-10
+                        .well
+                            .row(style='margin-top:3%;')
+                                .col-md-10.col-md-offset-1
+                                    h3(style='margin-top:2%;font-size:200% ;white-space: pre-line;color:#424242').
+                                        El sistema de cada teleférico está compuesto por uno o más cables (dependiendo del tipo). El primer cable está fijo y sirve para sostener las cabinas, el segundo está conectado a un motor (ubicado en la estación) y hace mover las cabinas.
+
+                                        Algunos teleféricos usan dos cabinas por tramo (trayecto entre estación y estación) a fin de crear un contrapeso. Otros sistemas más complejos tienen varias cabinas suspendidas simultáneamente en cada dirección.
             
+              div
+                .row
+                    .col-md-12
+                         a.thumbnail(href='#')
+                            img(src='img/tele.jpg').img-rounded.img-responsive 
 
 
 
 
-    .cd-panel.from-right
-      header.cd-panel-header
+
+      .cd-panel.from-right
+      header.cd-panel-header.pull-center
         h1 ¡Vive la Experiencia!
         a.cd-panel-close(href='#0') Close
       .cd-panel-container(style='opacity: 0.8; filter: alpha(opacity=80);')
@@ -57,14 +79,5 @@ html(ng-app='teleferico')
             button(style='font-size:350%; margin-top:5%  ').btn.btn-lg.btn-block.btn-primary Teleférico
            a(href='/parquePaseo')
             button(style='font-size:350%; margin-top:5%  ').btn.btn-lg.btn-block.btn-primary Parque Paseo del Teleférico
-           a(href='/mural')
-            button(style='font-size:350%; margin-top:5%  ').btn.btn-lg.btn-block.btn-primary Mural Urbano
-           .row
-             .col-md-10.col-md-offset-1(style='margin-top:3%')
-                a.twitter-timeline(href='https://twitter.com/hashtag/telefericoPuebla', data-widget-id='693094450403237888') Tweets sobre #telefericoPuebla
-                                                          script.
-                                                            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-
-
-
-           
+          a(href='/streaming')
+            button(style='font-size:350%; margin-top:5%  ').btn.btn-lg.btn-block.btn-primary En Vivo
