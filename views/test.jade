@@ -12,7 +12,8 @@ html.js.flexbox.flexboxlegacy.canvas.canvastext.webgl.no-touch.geolocation.postm
 
     link(rel='stylesheet', href='/stylesheets/utils.css')
       
-    link(rel='stylesheet', href='http://mclarenagency.com/wp-content/themes/McLarenAgency/_/stylesheets/min/screen.css?v=1.1')
+    link(rel='stylesheet', href='/stylesheets/screen.css')
+
     script(async='', src='//www.google-analytics.com/analytics.js')
     script.
       if( navigator.userAgent.match( /IEMobile\\/10\.0/ ) ) {
@@ -20,12 +21,16 @@ html.js.flexbox.flexboxlegacy.canvas.canvastext.webgl.no-touch.geolocation.postm
       msViewportStyle.appendChild( document.createTextNode( '@-ms-viewport{width:auto!important}' ) );
       document.getElementsByTagName( 'head' )[0].appendChild( msViewportStyle );
       }
-    script(src='http://mclarenagency.com/wp-content/themes/McLarenAgency/_/javascripts/min/modernizr.js')
+    script(src='/javascript/modernizr.js')
+
     link(rel='profile', href='http://gmpg.org/xfn/11')
     link(rel='pingback', href='http://mclarenagency.com/xmlrpc.php')
-    // This site is optimized with the Yoast WordPress SEO plugin v2.2.1 - https://yoast.com/wordpress/plugins/seo/
+
+    
     meta(name='description', content='Your full-service creative agency for the branding & marketing of residential & commercial properties.')
+
     link(rel='canonical', href='http://mclarenagency.com/en/')
+
     meta(property='og:locale', content='en_US')
     meta(property='og:locale:alternate', content='de_DE')
     meta(property='og:type', content='website')
@@ -40,14 +45,18 @@ html.js.flexbox.flexboxlegacy.canvas.canvastext.webgl.no-touch.geolocation.postm
     script(type='application/ld+json').
       {"@context":"http:\\/\/schema.org","@type":"WebSite","url":"http:\/\/mclarenagency.com\/en\/","name":"McLaren Agency | Real Estate Marketing","potentialAction":{"@type":"SearchAction","target":"http:\/\/mclarenagency.com\/en\/?s={search_term}","query-input":"required name=search_term"}}
     // / Yoast WordPress SEO plugin.
+
     link(rel='EditURI', type='application/rsd+xml', title='RSD', href='http://mclarenagency.com/xmlrpc.php?rsd')
     link(rel='wlwmanifest', type='application/wlwmanifest+xml', href='http://mclarenagency.com/wp-includes/wlwmanifest.xml')
     meta(name='generator', content='WordPress 4.1.9')
     link(rel='shortlink', href='http://mclarenagency.com/')
     link(rel='alternate', href='http://mclarenagency.com/en/', hreflang='en')
     link(rel='alternate', href='http://mclarenagency.com/de/', hreflang='de')
+
   body
     .container
+      
+      //Title in top-left
       h1.big.white(style='opacity: 1; z-index: 1001;')
         a(href='http://mclarenagency.com/en/')
           .logo-circle-container
@@ -68,6 +77,7 @@ html.js.flexbox.flexboxlegacy.canvas.canvastext.webgl.no-touch.geolocation.postm
               path#n(d='M215.994,10.761c0,2.762 0.083,5.359 0.056,5.359l-0.029,0c-0.027,0 -1.436,-2.016 -2.903,-3.978l-8.595,-11.549l-2.125,0l0,19.341l2.263,0l0,-10.141c0,-3.095 -0.083,-5.498 -0.055,-5.498l0.028,0c0.027,0 1.243,1.768 2.9,4.062l8.598,11.577l2.125,0l0,-19.341l-2.263,0l0,10.168Z', style='fill:#fff;fill-rule:nonzero;')
               path#c(d='M240.715,14.686l-2.238,-0.607c-1.271,2.431 -3.868,4.006 -6.826,4.006c-4.339,0 -7.709,-3.15 -7.709,-7.822c0,-4.672 3.287,-7.849 7.709,-7.849c2.709,0 5.168,1.326 6.495,3.453l2.293,-0.58c-1.74,-3.094 -5.001,-5.081 -8.788,-5.081c-5.554,0 -10.027,4.225 -10.027,10.057c0,5.832 4.473,10.057 10.027,10.057c4.036,0 7.462,-2.207 9.064,-5.634', style='fill:#fff;fill-rule:nonzero;')
               path#y(d='M251.079,6.92c-0.47,0.635 -1.133,1.519 -1.161,1.519l-0.027,0c-0.028,0 -0.689,-0.884 -1.186,-1.519l-4.863,-6.327l-2.572,0l7.49,9.836l0,9.504l2.236,0l0,-9.504l7.515,-9.836l-2.597,0l-4.835,6.327Z', style='fill:#fff;fill-rule:nonzero;')
+
       .burger.white(data-target='.navigation', style='opacity: 1; z-index: 1003;')
         span
       section.navigation

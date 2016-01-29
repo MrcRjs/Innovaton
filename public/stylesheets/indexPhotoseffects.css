@@ -1,0 +1,7 @@
+.blur-brightness{
+
+  -webkit-filter: grayscale(20%) brightness(85%);
+  
+  filter: grayscale(20%) brightness(85%);
+
+}
